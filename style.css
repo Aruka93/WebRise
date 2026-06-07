@@ -652,29 +652,6 @@ section{
 }
 
 /* =========================
-   TESTIMONIALS
-========================= */
-
-.reviews{
-
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:25px;
-}
-
-.review-card{
-
-    padding:30px;
-
-    border-radius:30px;
-
-    background:#0d0d14;
-
-    border:
-    1px solid rgba(255,255,255,.08);
-}
-
-/* =========================
    FAQ
 ========================= */
 
@@ -776,26 +753,6 @@ section{
     display:block;
 
     color:var(--text-secondary);
-}
-
-/* =========================
-   REVEAL
-========================= */
-
-.reveal{
-
-    opacity:0;
-    transform:translateY(60px);
-
-    transition:
-    opacity .8s ease,
-    transform .8s ease;
-}
-
-.reveal.active{
-
-    opacity:1;
-    transform:none;
 }
 
 /* =========================
@@ -1992,52 +1949,6 @@ section{
 
 
 
-/* СЕКУИЯ ТЕХНОЛОГИЙ */
-
-.tech-grid{
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(4,1fr);
-
-    gap:20px;
-}
-
-.tech-grid div{
-
-    padding:30px;
-
-    text-align:center;
-
-    border-radius:20px;
-
-    background:#0d0d14;
-
-    border:
-    1px solid rgba(255,255,255,.08);
-
-    transition:.3s;
-}
-
-.tech-grid div:hover{
-
-    transform:
-    translateY(-8px);
-
-    border-color:
-    rgba(77,124,255,.4);
-}
-
-@media(max-width:768px){
-
-    .tech-grid{
-
-        grid-template-columns:
-        repeat(2,1fr);
-    }
-
-}
 
 
 
